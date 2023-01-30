@@ -49,5 +49,42 @@ However, Lot 3 shows 170.2861224 variance, which far exceeds the specification.
 ![image](https://user-images.githubusercontent.com/114044192/215367990-3e9020d1-05a6-4ffe-a159-cde231f00daa.png)
 
 
+### T-Tests on Suspension Coils
+T-tests were ran to determine if all manufacturing lots and each lot individually are statistically different from 
+the population mean of 1,500 pounds per square inch.
+
+##### T-Test for all Lots:
+![image](https://user-images.githubusercontent.com/114044192/215369025-ff555e7c-ef4c-4a3e-8289-f880a9567614.png)
+
+The sample mean for all lots is 1498.78. 
+The p-value is 0.06 which is higher than 0.05. 
+The data supports not rejecting the null hypothesis.
+As a whole,the population meets the 1500 psi specification. 
+
+##### T-Test for Lot 1
+![image](https://user-images.githubusercontent.com/114044192/215369146-7ecc4138-b916-4945-8856-af99f3563cde.png)
+The sample mean for Lot 1 is 1500. 
+The p-value is 1 which is higher than 0.05. 
+The data supports not rejecting the null hypothesis.
+There is no statistical difference between sample mean and population mean. 
+
+##### T-Test for Lot 2
+![image](https://user-images.githubusercontent.com/114044192/215369171-8a9940b4-9ad0-4819-90e5-e56c27590276.png)
+The sample mean for Lot 2 is 1500.02. 
+The p-value is 0.61 which is higher than 0.05. 
+The data supports not rejecting the null hypothesis.
+There is no statistical difference between sample mean and population mean. 
+
+##### T-Test for Lot 3
+![image](https://user-images.githubusercontent.com/114044192/215369203-6c2a5a27-ff4e-4ca6-8ad0-ef9ca3438150.png)
+The sample mean for Lot 3 is 1496.14. 
+The p-value is 0.04 which is lower than 0.05. 
+The data supports rejecting the null hypothesis.
+
+#### Summary of testing
+Clearly, there is something occuring in Lot 3 that is causing multiple failures to meet specifications. The processes and checks need to be reviewed 
+to determine what is causing system failures. 
+
+### Study Design: MechaCar vs Competition
 
 
