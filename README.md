@@ -86,5 +86,36 @@ Clearly, there is something occuring in Lot 3 that is causing multiple failures 
 to determine what is causing system failures. 
 
 ### Study Design: MechaCar vs Competition
+A statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers will include:
+- A metric to be tested is mentioned
+- A null hypothesis or an alternative hypothesis is described
+- A statistical test is described to test the hypothesis
 
+#### Proposed Study:
+We would need to collect data for MechCar and its comparable models from different manufacturers for 2 years time to determine which, if any factors correlate to customer satisfaction. 
 
+##### Hypothesis:
+ - Null Hypothesis:
+   MechaCar is comparable and competitive to similar models from other manufacturers. 
+ - Alternative Hypothesis
+   MechaCar is NOT comparable and competitive to similar models from other manufacturers. 
+   
+##### Statistical Tests
+Multiple Linear regession and T tests should be used to determine identified factors as they correlate to customer satisfaction. 
+
+This would allow us to focus on the factors that highly correlate to customer satisfaction and review possible ways to improve overall
+customer satisfaction with the MechaCar.
+   
+##### Questons to consider:
+1. What are the manufacturers that produce comparable models?
+  - 1a. What manufacturers target the same market and are to be included in study?
+2. Which car(s) from identified manufacturers should be included?
+3. What data points do we want to compare across the population?
+  - 3a. Suggested comparison data include:
+     - Vehicle Cost
+     - Vehicle Weight
+     - Vehicle Engine Size
+     - Vehicle Engine Type
+     - Vehicle MPG
+     - Vehicle Safety Rating
+     - Vehicle Customer Satisfaction Rating
